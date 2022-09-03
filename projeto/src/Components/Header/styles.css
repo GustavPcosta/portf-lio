@@ -1,0 +1,24 @@
+a{
+color: white;
+text-decoration: none;
+}
+
+.container-menu{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container-menu li{
+list-style: none;
+margin-left: 10px;
+}
+
+.container-ul{
+display: flex;
+}
+
+a:hover{
+color: transparent;
+transition-duration: 1s;
+}

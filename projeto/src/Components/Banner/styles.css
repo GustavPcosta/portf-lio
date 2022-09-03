@@ -1,0 +1,55 @@
+.container-banner{
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(../../assets/programador.dev.3.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+background-color: rgba(46,46,46,0.8);
+}
+h1{
+color :black;
+font-size: 2.8rem;
+color: #eeee;
+margin-bottom: 1rem;
+}
+p{
+color: white;
+font-size: 1rem;
+margin-bottom: 1rem;
+}
+h2{
+font-size: 1.8rem;
+color: white;
+margin-bottom: 1rem;
+}
+button{
+min-width:150px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+color: white;
+border: solid 1px solid #dfa70c;
+border-radius: 42px;
+font-size: 2rem;
+padding: 10px 15px;
+cursor: pointer;
+
+}
+button:hover{
+background-color:#dfa70c;
+transition-duration: 1s;
+color:red;
+}
+
+.container-banner{
+display: flex;
+flex-direction: column;
+}
+.principal{
+color: #dfa70c;
+}

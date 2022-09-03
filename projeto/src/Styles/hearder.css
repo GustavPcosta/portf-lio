@@ -1,0 +1,13 @@
+header{
+width: 100%;
+background-color:#2b2c2c;
+height: 90px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+button{
+border: solid 2px solid #dfa70c;
+}
+

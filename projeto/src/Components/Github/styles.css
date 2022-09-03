@@ -1,0 +1,51 @@
+.container-github{
+position: relative;
+width: 100%;
+margin-bottom: 7rem;
+display: flex;
+justify-content: space-between;
+background-image: url(../../assets/Github\ logo.jpg);
+
+}
+
+.container-title{
+width: 100%;
+}
+.listProjects{
+position: relative;
+display: flex;
+flex-direction: column;
+width:100%;
+height: 132px;
+border-radius: 8px;
+background-color:  rgba(238,238,238,0.9);
+padding: 0.5rem 1rem;
+margin-bottom: 16px;
+}
+.avatar{
+width: 240px;
+height: 170px;
+border: 1px solid  darkgoldenrod;
+border-radius: 10px;
+}
+.container-github strong{
+color:white;
+font-size: 24px;
+color: darkgoldenrod; 
+}
+
+.container-github p{
+margin-top: 20px;
+font-size: 16px;
+}
+.listProjects a{
+color: black;
+}
+.listProjects span{
+color:#eeee;
+}
+.container-itens{
+position: relative;
+top: 150px;
+left: -70px;
+}
